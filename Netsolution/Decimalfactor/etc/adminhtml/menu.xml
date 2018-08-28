@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Netsolution_Decimalfactor::general" title="Netsolution Decimal factor" module="Netsolution_Decimalfactor" sortOrder="20" resource="Netsolution_Decimalfactor::general"/>
+        <add id="Netsolution_Decimalfactor::list" title="Decimal Factor Order Details" module="Netsolution_Decimalfactor" sortOrder="20" action="netsolution_decimalfactor/decimalfactor/" resource="Netsolution_Decimalfactor::items" parent="Netsolution_Decimalfactor::general"/>
+    </menu>
+</config>
